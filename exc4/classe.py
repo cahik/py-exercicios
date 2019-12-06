@@ -14,7 +14,7 @@ def indo( p1,p2):
     aviao.append(p2)
     print(f'Fortwo em movimento, levando o motorista {p1} e o passageiro {p2} para o avião{aviao}')
 
-def vindo(p1, p2=None):
+def vindo(p1):
     aviao.remove(p1)
     terminal.append(p1)
     print(f'Fortwo em movimento, levando o motorista {p1} para o terminal{terminal}')
